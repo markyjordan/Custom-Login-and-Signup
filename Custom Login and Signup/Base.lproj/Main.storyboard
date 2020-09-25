@@ -148,6 +148,9 @@
                                             <constraint firstAttribute="height" constant="40" id="Hcz-gq-ndw"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="signupButtonTapped:" destination="vwf-dE-yTi" eventType="touchUpInside" id="DDi-FC-Nyd"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04f-fr-eAo">
                                         <rect key="frame" x="0.0" y="276" width="334" height="20.5"/>
@@ -173,6 +176,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3gS-sL-fNa"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="2b1-CR-Ogw" id="5Oo-fn-qQ0"/>
+                        <outlet property="errorLabel" destination="04f-fr-eAo" id="nfO-6m-DZ4"/>
+                        <outlet property="firstNameTextField" destination="b0b-bD-5Is" id="T6i-Gn-1hP"/>
+                        <outlet property="lastNameTextField" destination="7eJ-a5-vTK" id="6Es-ME-dVZ"/>
+                        <outlet property="passwordTextField" destination="eYc-Li-36Q" id="x17-op-fgf"/>
+                        <outlet property="signupButton" destination="Gqw-II-Fsd" id="bnu-nz-sMa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dbq-1I-bHB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
