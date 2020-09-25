@@ -15,8 +15,18 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GlZ-Jr-8hY">
+                                <rect key="frame" x="40" y="624" width="334" height="198"/>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GlZ-Jr-8hY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="9ia-17-kyc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GlZ-Jr-8hY" secondAttribute="bottom" constant="40" id="ifT-yQ-jb4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GlZ-Jr-8hY" secondAttribute="trailing" constant="40" id="oU1-53-rOd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8An-b6-CPM"/>
                 </viewController>
