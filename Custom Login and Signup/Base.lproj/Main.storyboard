@@ -25,10 +25,16 @@
                                             <constraint firstAttribute="height" constant="40" id="mnG-bO-tHS"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <segue destination="vwf-dE-yTi" kind="show" id="joq-FV-30N"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3U-qE-jUk">
                                         <rect key="frame" x="0.0" y="60" width="334" height="30"/>
                                         <state key="normal" title="Login"/>
+                                        <connections>
+                                            <segue destination="yu2-Be-5Sj" kind="show" id="cAd-DQ-mPq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -99,6 +105,7 @@
                             <constraint firstItem="ECx-X0-kcl" firstAttribute="top" secondItem="RKv-Az-epw" secondAttribute="top" constant="40" id="PH4-jN-Mds"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Zpk-If-YAU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AAO-xT-aeI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,6 +172,7 @@
                             <constraint firstItem="yVq-dT-Enu" firstAttribute="trailing" secondItem="xPG-EE-8fp" secondAttribute="trailing" constant="40" id="kXs-wd-Eed"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="3gS-sL-fNa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dbq-1I-bHB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -178,10 +186,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RK4-aC-zdL">
-                                <rect key="frame" x="186" y="438" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RK4-aC-zdL">
+                                <rect key="frame" x="168" y="438" width="79" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
