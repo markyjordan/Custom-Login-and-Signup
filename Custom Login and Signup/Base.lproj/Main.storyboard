@@ -82,9 +82,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Iem-LM-xaB"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="loginButtonTapped:" destination="yu2-Be-5Sj" eventType="touchUpInside" id="aV0-oW-D3E"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsH-4B-PQK">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsH-4B-PQK">
                                         <rect key="frame" x="0.0" y="180" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -106,10 +109,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zpk-If-YAU"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="nTT-jq-dEt" id="JJz-sc-gJk"/>
+                        <outlet property="errorLabel" destination="DsH-4B-PQK" id="bbg-vo-Tz4"/>
+                        <outlet property="passwordTextField" destination="AIa-Vm-pal" id="XbV-uW-uPd"/>
+                        <outlet property="signupButton" destination="RjS-az-qYJ" id="dBe-uT-d9h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AAO-xT-aeI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1423" y="465"/>
+            <point key="canvasLocation" x="1421.7391304347827" y="464.73214285714283"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="SNd-o5-I5v">
