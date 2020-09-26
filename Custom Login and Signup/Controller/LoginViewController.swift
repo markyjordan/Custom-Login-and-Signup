@@ -13,14 +13,27 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var signupButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
     
     // MARK: - Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // additional setup after loading the view
+        setupElements()
+    }
+    
+    func setupElements() {
+        
+        // hide the error label
+        errorLabel.alpha = 0
+        
+        // setup textfields
+        Styles.styleTextField(emailTextField)
+        Styles.styleTextField(passwordTextField)
+        Styles.styleFilledButton(loginButton)
     }
     
     // MARK: - Actions

@@ -37,6 +37,7 @@ class SignupViewController: UIViewController {
         Styles.styleTextField(lastNameTextField)
         Styles.styleTextField(emailTextField)
         Styles.styleTextField(passwordTextField)
+        Styles.styleFilledButton(signupButton)
     }
   
     // MARK: - Actions
