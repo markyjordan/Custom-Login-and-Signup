@@ -9,11 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - Outlets/Properties
+    
+    @IBOutlet weak var signupButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
+    
+    // MARK: - Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // additional setup after loading the view
+        setupElements()
     }
 
-
+    func setupElements() {
+        
+    }
+    
 }
 
