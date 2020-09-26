@@ -116,10 +116,10 @@
 		E203730F251D7B770035F4EF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E20372DA251D76A80035F4EF /* ViewController.swift */,
 				E2037318251D7BA90035F4EF /* SignupViewController.swift */,
 				E2037310251D7B9A0035F4EF /* LoginViewController.swift */,
 				E203731D251D7BF80035F4EF /* HomeViewController.swift */,
-				E20372DA251D76A80035F4EF /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
