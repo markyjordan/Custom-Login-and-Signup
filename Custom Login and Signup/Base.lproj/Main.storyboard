@@ -17,12 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GlZ-Jr-8hY">
-                                <rect key="frame" x="40" y="732" width="334" height="90"/>
+                                <rect key="frame" x="40" y="702" width="334" height="120"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwE-5Y-QMJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="mnG-bO-tHS"/>
+                                            <constraint firstAttribute="height" constant="50" id="mnG-bO-tHS"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
                                         <connections>
@@ -30,7 +30,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3U-qE-jUk">
-                                        <rect key="frame" x="0.0" y="60" width="334" height="30"/>
+                                        <rect key="frame" x="0.0" y="70" width="334" height="50"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <segue destination="yu2-Be-5Sj" kind="show" id="cAd-DQ-mPq"/>
@@ -38,7 +38,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="B3U-qE-jUk" firstAttribute="height" secondItem="TwE-5Y-QMJ" secondAttribute="height" multiplier="0.75" id="gdC-WF-Hs0"/>
+                                    <constraint firstItem="B3U-qE-jUk" firstAttribute="height" secondItem="TwE-5Y-QMJ" secondAttribute="height" id="3Av-cE-rKM"/>
                                 </constraints>
                             </stackView>
                         </subviews>
