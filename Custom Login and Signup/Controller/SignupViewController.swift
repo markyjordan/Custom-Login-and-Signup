@@ -23,12 +23,26 @@ class SignupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // additional setup after loading the view
+        setupElements()
+    }
+    
+    func setupElements() {
+        
+        // hide the error label
+        errorLabel.alpha = 0
+        
+        // setup textfields
+        Styles.styleTextField(firstNameTextField)
+        Styles.styleTextField(lastNameTextField)
+        Styles.styleTextField(emailTextField)
+        Styles.styleTextField(passwordTextField)
     }
   
     // MARK: - Actions
     
     @IBAction func signupButtonTapped(_ sender: Any) {
+        
     }
-    
-    
+
 }
