@@ -17,7 +17,7 @@
 		E2037319251D7BA90035F4EF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2037318251D7BA90035F4EF /* SignupViewController.swift */; };
 		E203731E251D7BF80035F4EF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E203731D251D7BF80035F4EF /* HomeViewController.swift */; };
 		E2100E3A251EAE0F00289B56 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100E39251EAE0F00289B56 /* Styles.swift */; };
-		E2100E42251EB85E00289B56 /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100E41251EB85E00289B56 /* FormValidation.swift */; };
+		E2100E42251EB85E00289B56 /* FormUtilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100E41251EB85E00289B56 /* FormUtilites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		E2037318251D7BA90035F4EF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		E203731D251D7BF80035F4EF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E2100E39251EAE0F00289B56 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		E2100E41251EB85E00289B56 /* FormValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
+		E2100E41251EB85E00289B56 /* FormUtilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUtilites.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				E2100E39251EAE0F00289B56 /* Styles.swift */,
-				E2100E41251EB85E00289B56 /* FormValidation.swift */,
+				E2100E41251EB85E00289B56 /* FormUtilites.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 				E2037319251D7BA90035F4EF /* SignupViewController.swift in Sources */,
 				E20372D7251D76A80035F4EF /* AppDelegate.swift in Sources */,
 				E20372D9251D76A80035F4EF /* SceneDelegate.swift in Sources */,
-				E2100E42251EB85E00289B56 /* FormValidation.swift in Sources */,
+				E2100E42251EB85E00289B56 /* FormUtilites.swift in Sources */,
 				E203731E251D7BF80035F4EF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
