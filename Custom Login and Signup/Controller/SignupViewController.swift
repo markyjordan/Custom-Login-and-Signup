@@ -25,6 +25,8 @@ class SignupViewController: UIViewController {
 
         // additional setup after loading the view
         setupElements()
+        
+        print(firstNameTextField.frame.width)
     }
     
     func setupElements() {
