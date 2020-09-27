@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Custom_Login_and_Signup_Custom_Login_and_SignupUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Custom_Login_and_Signup_Custom_Login_and_SignupUITests
+@end
